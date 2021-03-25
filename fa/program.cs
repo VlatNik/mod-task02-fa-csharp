@@ -41,9 +41,9 @@ namespace fans
         public FA1()
         {
             a.Transitions['0'] = b;
-            a.Transitions['1'] = b;
+            a.Transitions['1'] = a;
             b.Transitions['0'] = c;
-            b.Transitions['1'] = c;
+            b.Transitions['1'] = b;
             c.Transitions['0'] = null;
             c.Transitions['1'] = c;
         }

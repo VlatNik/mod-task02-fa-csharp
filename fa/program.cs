@@ -44,7 +44,7 @@ namespace fans
             a.Transitions['1'] = a;
             b.Transitions['0'] = c;
             b.Transitions['1'] = b;
-            c.Transitions['0'] = null;
+            c.Transitions['0'] = c;
             c.Transitions['1'] = c;
         }
     
